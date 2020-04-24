@@ -309,7 +309,7 @@ def prepare_data_loaders(data_path):
 data_path = 'data/imagenet_1k'
 saved_model_dir = 'data/'
 float_model_file = 'net_pretrained_float.pth'
-scripted_float_model_file = 'enet_q_scripted.pth'
+scripted_float_model_file = 'net_q_scripted.pth'
 scripted_quantized_model_file = 'net_q_scripted_q.pth'
 
 train_batch_size = 30
