@@ -10,14 +10,14 @@ Provide a candidate a code snippet that is repated to one of tasks of interest. 
 2. Gereneral conversation on code's strengths and weaknesses. Discussion of possible solution for reimplementing it.
 3. Actual live refactoring/reimplementation with the goal of meeting some formal requirements (production ready system, scalability etc.).
 
-## Legend
-
-* 📗 - easy (junior scientist)
-* 📙 - medium (scientist)
-* 📕 - hard (senior scientist)
-
 ## Tasks
 
 1. 📗 **Quantization of a neural network**. Based on [PyTorch tutorial](https://pytorch.org/tutorials/advanced/static_quantization_tutorial.html).
 2. 📗 **Shoot in your leg** - compilation of basic mistakes that can be made when designing NN architecture (from Yandex Data School)
 3. 📙 **Modified CycleGAN**. Based on [paper](https://arxiv.org/abs/1703.10593). Modified for the task of generation of realistic avatars from portrait photos of people.
+
+## Legend
+
+* 📗 - easy (junior scientist)
+* 📙 - medium (scientist)
+* 📕 - hard (senior scientist)
