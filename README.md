@@ -12,9 +12,9 @@ Provide a candidate a code snippet that is repated to one of tasks of interest. 
 
 ## Tasks
 
-1. 📗 **Quantization of a neural network**. Based on [PyTorch tutorial](https://pytorch.org/tutorials/advanced/static_quantization_tutorial.html).
-2. 📗 **Shoot in your leg** - compilation of basic mistakes that can be made when designing NN architecture (from Yandex Data School)
-3. 📙 **Modified CycleGAN**. Based on [paper](https://arxiv.org/abs/1703.10593). Modified for the task of generation of realistic avatars from portrait photos of people.
+1. 📗 [**Quantization of a neural network**](task1.py). Based on [PyTorch tutorial](https://pytorch.org/tutorials/advanced/static_quantization_tutorial.html).
+2. 📗 [**Shoot in your leg**](task2.py) - compilation of basic mistakes that can be made when designing NN architecture (from Yandex Data School)
+3. 📙 [**Modified CycleGAN**](task3.py). Based on [paper](https://arxiv.org/abs/1703.10593). Modified for the task of generation of realistic avatars from portrait photos of people.
 
 ## Legend
 
