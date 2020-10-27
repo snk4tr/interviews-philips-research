@@ -12,6 +12,35 @@ Note: this code is taken from [here](https://github.com/pytorch/vision/blob/mast
 **Question 1.2: What task is this model for?**  
 _Answer_: This is a network for a classification on 1k classes (ImageNet1k).
 
+**Question 1.3: What is going on on lines 152-162**
+```python
+for m in self.modules():
+    if isinstance(m, nn.Conv2d):
+        nn.init.kaiming_normal_(m.weight, mode='fan_out')
+        if m.bias is not None:
+            nn.init.zeros_(m.bias)
+    elif isinstance(m, nn.BatchNorm2d):
+        nn.init.ones_(m.weight)
+        nn.init.zeros_(m.bias)
+    elif isinstance(m, nn.Linear):
+        nn.init.normal_(m.weight, 0, 0.01)
+        nn.init.zeros_(m.bias)
+```  
+_Answer_: weights initialization.
+
+**Question 1.4: What is `kaiming normal` initialization? What other types of initialization do you know? 
+What is the difference between them?**  
+_Answer_: `kaiming` algorithm:
+1. Initialize all weights with values from standard normal distribution
+2. Multiply each number by `sqrt(2) / sqrt(n)`, where `n` is is the number of incoming connections coming into a given 
+layer from the previous layer’s output
+3. Bias tensors are initialized to zero  
+
+Why? Because if we just sample from std we will have plenty of negative numbers, which is good is case of activations 
+like `sigmoid` but not ReLU is a kind and it kills all negative values from the very first iterations (dead ReLU)
+  
+Other types of initialization: zero initialization, random initialization, He initialization, Xavier initialization  
+
 ## 2. Helper functions
 
 **Question 2.1: What does `accuracy` method do?**  
