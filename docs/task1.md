@@ -1,4 +1,4 @@
-# Answers to the questions in the code snippet on quantization
+# Q&As for the code snippet on quantization
 
 ## 1. Model architecture
 
