@@ -79,16 +79,16 @@ under review. Use the [reference](docs/task3.md) to find the list of possible Q&
 ## Usage
 
 
-During code review sections, [repository with code for a candidate](https://github.com/snk4tr/interviews-philips-research-candidate)
+During code review sections, [repository with code for a candidate](https://github.com/PILRUS-interviews/interviews-philips-research-candidate)
 is shared with the candidate by changing its visibility to `public` and sending them a link. If an interviewer does not
-have access to the [repository with code for a candidate](https://github.com/snk4tr/interviews-philips-research-candidate),
+have access to the [repository with code for a candidate](https://github.com/PILRUS-interviews/interviews-philips-research-candidate),
 they should contact <ins>sergey.kastryulin@philips.com</ins> and request it.
-The [repository with code for a candidate](https://github.com/snk4tr/interviews-philips-research-candidate) contains
+The [repository with code for a candidate](https://github.com/PILRUS-interviews/interviews-philips-research-candidate) contains
 the same code snippets except for some inline comments, which, if present, would provide unnecessary extra support for
 the candidate. After the code review process is finished, the interviewer who shared the link to the candidate's
 repository has to change its visibility back to `private` to limit unnecessary public access.
 
-Interviewers are encourage but not limited to the following actions:
+Interviewers are encouraged but not limited to the following actions:
 1. Going into details of implementation using questions prepared in [docs](docs/).
    Please note that sections in tasks are enumerated to ease the process of finding relevant questions.
 2. General conversation on the code's strengths and weaknesses. Discussion of possible solutions and/or 
